@@ -1,0 +1,61 @@
+.container {
+  width: 90%;
+  height: auto;
+  display: grid;
+  grid-template-columns: .125fr 1fr .125fr;
+  padding-block-end: 50px;
+  padding-block-start: 50px;
+  margin: 70px auto;
+  background-color: #fff;
+  color: #261c2c;
+  border-radius: 10px;
+}
+.arrow {
+  cursor: pointer;
+  font-size: 3.5em;
+  padding-block-start: 30px;
+  margin: 0 auto;
+}
+.vote {
+  padding: 20px;
+  text-align: center;
+  border: 3px solid #b42b51;
+  border-radius: 50%;
+}
+.joke {
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 600;
+}
+.btns {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.emoji {
+  font-size: 50px;
+  padding: 25px;
+}
+
+@media screen and (max-width: 480px) {
+.container{
+  grid-template-columns: 1fr ;
+  width: 95%;
+  font-size: .75em;
+}
+.emoji {
+  font-size: 30px;
+  padding: 12.5px;
+}
+.vote {
+  padding-block-start: 35px;
+  width: 25vw;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.arrow{
+  font-size: 7em;
+
+}
+}
